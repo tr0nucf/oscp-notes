@@ -2,5 +2,6 @@
 
 * [Initial page](README.md)
 * [hydra](hydra.md)
-* [LFI](lfi.md)
+* [LFI](lfi/README.md)
+  * [Files of Interest](lfi/files-of-interest.md)
 

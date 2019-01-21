@@ -1,10 +1,25 @@
 # hydra
 
-http post cracking \(login forms\):
+http POST-form cracking \(login forms\):
 
 ~~~
-hydra -l  -P   http-post-form “/login.php:username=^USER^&password=^PASS^:Login failed text”
+hydra -l USERNAME -P /path/to/wordlist http-post-form “/login.php:username=^USER^&password=^PASS^:Login failed text”
 ~~~
+
+http basic auth:
+
+~~~
+hydra -l USERNAME -P /path/to/wordlist -f 127.0.0.1 http-get /pathtoauth
+~~~
+
+useful flags:
+~~~
+-f = stop cracking after password is found
+-I = skip restoring from previous session
+-R = restore from previous session
+~~~
+
+
 
 
 

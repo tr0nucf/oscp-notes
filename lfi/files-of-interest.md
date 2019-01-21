@@ -3,16 +3,17 @@
 In the case where there is a LFI, and you cannot gain command execution try looking for interesting files which might contain credentials to help you move forward.
 
 Linux Interesting Files:
-~~~
+
+```text
 /etc/passwd <- see which users are on the box
 SSH keys <- using the information from above, check to see if there are any LFI keys
-	- default location: /home/user/.ssh/id_rsa
+    - default location: /home/user/.ssh/id_rsa
 /var/lib/tomcatX/tomcat-users.xml <- replace x with the tomcat version installed, and see if there are any credentias
-~~~
+```
 
 Windows Interesting Files:
 
-~~~
+```text
 C:/Users/Administrator/NTUser.dat
 C:/Documents and Settings/Administrator/NTUser.dat
 C:/apache/logs/access.log
@@ -81,9 +82,9 @@ C:/Program Files/MySQL/MySQL Server 5.1/my.ini
 C:/Windows/System32/inetsrv/config/schema/ASPNET_schema.xml
 C:/Windows/System32/inetsrv/config/applicationHost.config
 C:/inetpub/logs/LogFiles/W3SVC1/u_ex[YYMMDD].log
-~~~
-Source: https://www.gracefulsecurity.com/path-traversal-cheat-sheet-windows/
+```
 
-Payloads:
-https://github.com/tennc/fuzzdb/tree/master/dict/BURP-PayLoad/LFI
+Source: [https://www.gracefulsecurity.com/path-traversal-cheat-sheet-windows/](https://www.gracefulsecurity.com/path-traversal-cheat-sheet-windows/)
+
+Payloads: [https://github.com/tennc/fuzzdb/tree/master/dict/BURP-PayLoad/LFI](https://github.com/tennc/fuzzdb/tree/master/dict/BURP-PayLoad/LFI)
 

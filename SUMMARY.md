@@ -2,4 +2,5 @@
 
 * [Initial page](README.md)
 * [hydra](hydra.md)
+* [LFI](lfi.md)
 

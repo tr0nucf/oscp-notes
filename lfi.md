@@ -68,5 +68,7 @@ php://filter/read=convert.base64-encode/resource=FILE
 
 Read about the different PHP filters: https://highon.coffee/blog/lfi-cheat-sheet/
 
- 
+# include subpage about 'files of interest' in LFI
+
+
 

@@ -7,7 +7,7 @@ Linux Interesting Files:
 /etc/passwd <- see which users are on the box
 SSH keys <- using the information from above, check to see if there are any LFI keys
 	- default location: /home/user/.ssh/id_rsa
-
+/var/lib/tomcatX/tomcat-users.xml <- replace x with the tomcat version installed, and see if there are any credentias
 ~~~
 
 Windows Interesting Files:
@@ -82,11 +82,8 @@ C:/Windows/System32/inetsrv/config/schema/ASPNET_schema.xml
 C:/Windows/System32/inetsrv/config/applicationHost.config
 C:/inetpub/logs/LogFiles/W3SVC1/u_ex[YYMMDD].log
 ~~~
-
-Source: 
-
+Source: https://www.gracefulsecurity.com/path-traversal-cheat-sheet-windows/
 
 Payloads:
-(payloads for LFI)
-
+https://github.com/tennc/fuzzdb/tree/master/dict/BURP-PayLoad/LFI
 

@@ -56,7 +56,7 @@ To exploit, send a HTTP request containing php code using nc & include access.lo
 
 \(Images from Infosec Institute\)
 
-![nc](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/080416_0223_FromLocalFi8.png)
+![using nc to send request](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/080416_0223_FromLocalFi8.png)
 
 ### PHP Filters
 
@@ -71,6 +71,4 @@ php://filter/read=convert.base64-encode/resource=FILE
 ```
 
 Read about the different PHP filters: [https://highon.coffee/blog/lfi-cheat-sheet/](https://highon.coffee/blog/lfi-cheat-sheet/)
-
-## include subpage about 'files of interest' in LFI
 

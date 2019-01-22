@@ -37,7 +37,7 @@ Bypass:
 
 Spoof MIME using Burp, change to image/jpeg
 
-![burp mime validation]['screenshots/burp.jpg']
+![burp mime validation]['/screenshots/burp.png']
 
 
 # Other Bypasses

@@ -1,6 +1,6 @@
 # tomcat default user information
 
-~~~
+```text
 # Apache Tomcat Default Credentials
 
 |Username     |Password  |
@@ -30,7 +30,7 @@
 |tomcat       |<blank>   |
 |tomcat       |admin     |
 |tomcat       |changethis|
-~~~
+```
 
-Metasploit Module: https://www.rapid7.com/db/modules/auxiliary/scanner/http/tomcat_mgr_login
+Metasploit Module: [https://www.rapid7.com/db/modules/auxiliary/scanner/http/tomcat\_mgr\_login](https://www.rapid7.com/db/modules/auxiliary/scanner/http/tomcat_mgr_login)
 

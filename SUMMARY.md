@@ -10,4 +10,5 @@
 * [file uploads](file-uploads.md)
 * [tomcat default user information](tomcat-default-user-information.md)
 * [tcpdump](tcpdump.md)
+* [useful nse scripts](useful-nse-scripts.md)
 

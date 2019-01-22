@@ -18,4 +18,11 @@
 * [\[skip\] windows-megathread](skip-windows-megathread.md)
 * [\[skip\] sqli](skip-sqli.md)
 * [rbash \(jail shell\) escape](rbash-jail-shell-escape.md)
+* [command injection](command-injection.md)
+* [\[skip\] shellshock](skip-shellshock.md)
+* [\[skip\] linux priv-esc megathread](skip-linux-priv-esc-megathread.md)
+* [john](john.md)
+* [tmux tips & tricks](tmux-tips-and-tricks.md)
+* [gobuster through socks5](gobuster-through-socks5.md)
+* [compiling windows exploits on linux](compiling-windows-exploits-on-linux.md)
 

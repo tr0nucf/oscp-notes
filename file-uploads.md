@@ -37,7 +37,7 @@ Bypass:
 
 Spoof MIME using Burp, change to image/jpeg
 
-![burp mime validation]['/screenshots/burp.png']
+![burp mime validation]['/home/slime/Desktop/oscp-notes/screenshots/burp.png']
 
 
 # Other Bypasses

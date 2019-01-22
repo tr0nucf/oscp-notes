@@ -7,4 +7,5 @@
 * [SSH Keys](ssh-keys.md)
 * [unicornscan](unicornscan.md)
 * [exploiting nfs shares](exploiting-nfs-shares.md)
+* [file uploads](file-uploads.md)
 

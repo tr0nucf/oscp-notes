@@ -12,7 +12,7 @@ IP = host ip
 a = all (Scan 65535 ports)
 ~~~
 
-`for udp, change -mT to -mU```
+`for udp, change -mT to -mU`
 
 
 in action:

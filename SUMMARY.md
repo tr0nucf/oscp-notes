@@ -12,4 +12,10 @@
 * [tcpdump](tcpdump.md)
 * [useful nse scripts](useful-nse-scripts.md)
 * [sending files using nc](sending-files-using-nc.md)
+* [metasploit](metasploit.md)
+* [\[skip\] anti-metasploit](skip-anti-metasploit.md)
+* [dump mysql dbs](dump-mysql-dbs.md)
+* [\[skip\] windows-megathread](skip-windows-megathread.md)
+* [\[skip\] sqli](skip-sqli.md)
+* [rbash \(jail shell\) escape](rbash-jail-shell-escape.md)
 

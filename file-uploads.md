@@ -37,7 +37,7 @@ Bypass:
 
 Spoof MIME using Burp, change to image/jpeg
 
-![burp mime validation][/home/slime/Desktop/oscp-notes/screenshots/burp.png]
+![burp mime validation]['/home/slime/Desktop/oscp-notes/screenshots/burp.png']
 
 
 # Other Bypasses
@@ -45,6 +45,7 @@ Spoof MIME using Burp, change to image/jpeg
 For more information about the above and other bypassess such as getimagesize():
 
 https://www.virtualhackinglabs.com/?courses=7-7-file-upload-vulnerabilities
+
 http://www.hackingarticles.in/5-ways-file-upload-vulnerability-exploitation
 
 

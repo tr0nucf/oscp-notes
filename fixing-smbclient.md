@@ -1,6 +1,6 @@
 # fixing smbclient
 
-~~
+~~~
 apt-get install libgnutls28-dev
 apt-get install libgnutls28-dev
 apt-get install libldap2-dev

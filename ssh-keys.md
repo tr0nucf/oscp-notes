@@ -18,8 +18,9 @@ Keys will be saved to
 	authorized_keys location:
 		~~~
 		/home/user/.ssh/authorized_keys
-		
-		root's authorized_keys location
+		~~~
+	root's authorized_keys location
+		~~~
 		/root/.ssh/authorized_keys
 		~~~
 

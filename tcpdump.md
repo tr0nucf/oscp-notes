@@ -17,4 +17,3 @@ Use AND (&&), OR (||), EXCEPT(!) to group filters:
 $ tcpdump -i ppp0 src {IP} and icmp
 ~~~
 (Listen on interface ppp0 for source IP for ICMP traffic
-~~~

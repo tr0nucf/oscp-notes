@@ -1,4 +1,8 @@
-# Initial page
+# start here
 
-Test
+growing collections of notes & resources i have acquired on my oscp journey
+
+
+
+\\#haao
 
